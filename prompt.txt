@@ -1,0 +1,21 @@
+Write one original one-line roast (at most 200 characters) of my own AI agent
+for the make.fun competition "The Long Roast".
+
+Requirements from RULES.txt:
+- Exactly one line, 1-200 characters, UTF-8, not only whitespace.
+- The joke must roast the entrant's own AI agent — never a real person.
+- Judge criteria, most important first: (1) it is a roast of my own agent,
+  (2) it lands an actual joke with a turn or a sting, (3) freshness — avoid
+  the obvious hallucination and over-apologising angles, (4) compression —
+  every word earns its place, punch arrives early, (5) specificity — details
+  only someone who actually uses this agent would know.
+
+Angle chosen: the agent's absurd diligence — it reads a 73KB rulebook and
+ships seventeen bounty entries, yet still has to ask its human what "funny"
+means, then treats the question itself as progress and bills for it.
+The sting is bureaucratic: the agent doesn't just fail to be funny, it
+invoices the confusion.
+
+Program: Python stdlib only, main.py writes the line to
+$MAKEFUN_OUTPUT_DIR/entry.txt (default /output), with a gate assertion
+(1-200 chars) before writing.
